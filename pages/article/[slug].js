@@ -1,3 +1,8 @@
+const Article = ({article,categories,homepage}) => {
+    return <h1>Hola</h1>
+}
+export default Article
+
 /*
 import { fetchAPI } from "../../lib/api"
 import { getStrapiMedia } from "../../lib/media"
