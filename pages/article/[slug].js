@@ -1,3 +1,4 @@
+/*
 import { fetchAPI } from "../../lib/api"
 import { getStrapiMedia } from "../../lib/media"
 import Image from "../components/images"
@@ -58,3 +59,5 @@ export async function getStaticProps({ params }) {
 }
 
 export default Article;
+
+*/
