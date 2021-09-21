@@ -5,7 +5,7 @@ import { getImagefromUrl } from "../lib/media";
 
 const Header = ({ image }) => {
 
-    const imageLogo = getImagefromUrl('/uploads/logo_c7adbfe6dd.png')
+    const imageLogo = getImagefromUrl('/uploads/logo512_835c82e575.png')
     return (
         <div className="header header-06" >
             <div className="container">

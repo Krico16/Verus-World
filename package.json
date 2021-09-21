@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.0.0-beta3",
+    "dotenv": "^10.0.0",
     "moment": "^2.29.1",
     "next": "10.2.0",
     "pg": "^8.7.1",

@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import Countdown from "react-countdown"
+import TeamArea from './team'
 
 const Content = () => {
     return (
@@ -6,40 +8,25 @@ const Content = () => {
             <div className="hero-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-12">
+                        <div className="col-xl-6">
                             <div className="heading">
                                 <h1 className="text-white">
                                     Llegaremos <br /> Pronto
                                 </h1>
                             </div>
+                            <Countdown date={Date.parse('2021-10-01')} renderer={Timer} />
                         </div>
-                        <div className="col-xl-7 col-lg-7">
-                            <Countdown date={Date.parse('2021-10-01') } renderer={Timer} />
-                        </div>
-                        <div className="col-xl-5 col-lg-5">
-                            <p></p>
+                        <div className="col-xl-5 col-lg-5" >
+                            <Image src={`${process.env.NEXT_PUBLIC_STRAPI_API_URL}/uploads/logo512_55e651fea1.png`} width={600} height={800} className="cover-img" />
                         </div>
                     </div>
                 </div>
             </div>
-        
-            <div className="team-area">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xl-9">
-                            <div className="section-title">
-                                <h1>Nuestro equipo</h1>
-                                <h2>Un equipo encargado de mejorar el futuro</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+             {/*  <TeamArea /> */}
         </div>
 
     )
 }
-
 const Timer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
         return <h1>Completado!</h1>
