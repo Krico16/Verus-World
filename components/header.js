@@ -11,11 +11,11 @@ const Header = ({ image }) => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-4">
-                        <div className="logo"><img src={imageLogo} /></div>
+                        <div className="logo"><img width={120} height={120} src={imageLogo} alt="React Logo" /></div>
                     </div>
                     <div className="col-md-8">
                         <div className="header-right text-right">
-                            <a>Bienvenid@ a Verus Wrld!</a>
+                            <p>Bienvenid@ a Verus Wrld!</p>
                         </div>
                     </div>
                 </div>

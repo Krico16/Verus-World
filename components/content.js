@@ -17,7 +17,7 @@ const Content = () => {
                             <Countdown date={Date.parse('2021-10-01')} renderer={Timer} />
                         </div>
                         <div className="col-xl-5 col-lg-5" >
-                            <Image src={`${process.env.NEXT_PUBLIC_STRAPI_API_URL}/uploads/logo512_55e651fea1.png`} width={600} height={800} className="cover-img" />
+                            <Image src={`${process.env.NEXT_PUBLIC_STRAPI_API_URL}/uploads/logo512_55e651fea1.png`} width={600} height={800} className="cover-img" alt="Verus professional" />
                         </div>
                     </div>
                 </div>
