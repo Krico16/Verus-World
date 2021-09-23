@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Countdown from "react-countdown"
 import TeamArea from './team'
 
-const Content = () => {
+const Content = ({images}) => {
     return (
         <div className="main-wrapper demo-06">
             <div className="hero-area">
@@ -14,10 +14,10 @@ const Content = () => {
                                     Llegaremos <br /> Pronto
                                 </h1>
                             </div>
-                            <Countdown date={Date.parse('2021-10-01')} renderer={Timer} />
+                            <Countdown date={Date.parse('2021-10-17')} renderer={Timer} />
                         </div>
                         <div className="col-xl-5 col-lg-5" >
-                            <Image src={`${process.env.NEXT_PUBLIC_STRAPI_API_URL}/uploads/logo512_55e651fea1.png`} width={600} height={800} className="cover-img" alt="Verus professional" />
+                            <Image src={images.hero.author[0].url} width={600} height={800} className="cover-img" alt={images.hero.author[0].name} />
                         </div>
                     </div>
                 </div>
@@ -53,3 +53,7 @@ const Timer = ({ days, hours, minutes, seconds, completed }) => {
 }
 
 export default Content
+
+export async function getStaticProps(params) {
+    
+}

@@ -3,7 +3,8 @@ module.exports = {
     images: {
         domains: [
             'https://still-depths-15850.herokuapp.com',
-            'still-depths-15850.herokuapp.com'
+            'still-depths-15850.herokuapp.com',
+            'res.cloudinary.com'
         ]
     }
 }

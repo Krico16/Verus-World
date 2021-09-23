@@ -12,9 +12,9 @@ const Home = ({ homepage }) => {
   return (
     <Layout>
       <Seo seo={homepage.seo} />
-      <Body> 
-        <Header image={homepage.seo.shareImage}/>
-        <Content />
+      <Body>
+        <Header image={homepage.seo.shareImage} />
+        <Content images={homepage} />
         <Footer />
       </Body>
     </Layout>
