@@ -8,7 +8,7 @@ const Content = ({images}) => {
             <div className="hero-area">
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-6">
+                        <div className="col-xl-7">
                             <div className="heading">
                                 <h1 className="text-white">
                                     Llegaremos <br /> Pronto
@@ -17,7 +17,7 @@ const Content = ({images}) => {
                             <Countdown date={Date.parse('2021-10-17')} renderer={Timer} />
                         </div>
                         <div className="col-xl-5 col-lg-5" >
-                            <Image src={images.hero.author[0].url} width={600} height={800} className="cover-img" alt={images.hero.author[0].name} />
+                            <Image src={images.hero.author[0].url} width={450} height={700} className="cover-img" alt={images.hero.author[0].name} />
                         </div>
                     </div>
                 </div>
