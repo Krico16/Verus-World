@@ -1,7 +1,7 @@
 const securityHeaders = [
     {
         key: 'Content-Security-Policy',
-        value: 'vitals.vercel-insights.com'
+        value: 'default-src https://vitals.vercel-insights.com'
     }
 ]
 
@@ -14,12 +14,4 @@ module.exports = {
             'res.cloudinary.com'
         ]
     },
-    async headers(){
-        return [
-            {
-                source: '/(*)',
-                headers: securityHeaders
-            }
-        ]
-    }
 }
