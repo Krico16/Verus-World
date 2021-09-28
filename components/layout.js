@@ -5,3 +5,5 @@ const Layout = ({ children, seo }) => (
 )
 
 export default Layout;
+
+// Morado - Negro - Blanco

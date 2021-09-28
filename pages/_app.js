@@ -8,6 +8,7 @@ import { fetchAPI } from "../lib/api";
 import '../styles/css/style.css'
 import '../styles/css/icomoon.css'
 import '../styles/css/animate.css'
+import '../styles/ss.css'
 
 // Store Strapi Global object in context
 export const GlobalContext = createContext({});

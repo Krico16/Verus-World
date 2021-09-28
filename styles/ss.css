@@ -1,0 +1,19 @@
+main.main{
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+main .header.my-header{
+    position: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+
