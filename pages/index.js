@@ -1,21 +1,20 @@
 import React from 'react'
 import Seo from '../components/seo'
 import Body from '../components/body';
-import Footer from '../components/footer'
 
 import { fetchAPI } from '../lib/api'
 import Layout from '../components/layout';
-import Header from '../components/header';
-import Content from '../components/content';
+import HomePage from '../components/homepage/header';
+import BodyContent from '../components/homepage/body';
 
 const Home = ({ homepage }) => {
+  //console.log(homepage);
   return (
     <Layout>
       <Seo seo={homepage.seo} />
       <Body>
-        <Header image={homepage.seo.shareImage} />
-        <Content images={homepage} />
-        <Footer />
+        <HomePage info={homepage.hero} />
+        <BodyContent />
       </Body>
     </Layout>
   );
