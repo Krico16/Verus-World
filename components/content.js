@@ -54,10 +54,7 @@ const Timer = ({ days, hours, minutes, seconds, completed }) => {
 }
 
 export default Content
-/**
- * 
- * 
- */
+
 
 /**
  * Inicio
