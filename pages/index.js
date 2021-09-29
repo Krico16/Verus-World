@@ -13,7 +13,7 @@ const Home = ({ homepage }) => {
     <Layout>
       <Seo seo={homepage.seo} />
       <Body>
-        <HomePage info={homepage.hero} />
+        <HomePage info={homepage.hero} meta={homepage.seo} />
         <BodyContent />
       </Body>
     </Layout>

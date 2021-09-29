@@ -1,7 +1,4 @@
 
-import Image from 'next/image'
-import { getImagefromUrl } from '../../../lib/media';
-
 const ListItem = ({ url }) => {
     return (
         <li className="one_third">

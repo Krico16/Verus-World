@@ -2,7 +2,7 @@ const Logo = ({ info }) => {
     return (
         <div id="logo" className="one_quarter first">
             <h1>{info.title}</h1>
-            <p> Slogan </p>
+            <p> {info.slogan} </p>
         </div>
     );
 }

@@ -5,7 +5,7 @@ import { getStrapiMedia } from "../lib/media";
 import { fetchAPI } from "../lib/api";
 
 import '../styles/globals.css'
-import '../styles/framework.css'
+//import '../styles/framework.css'
 
 // Store Strapi Global object in context
 export const GlobalContext = createContext({});
