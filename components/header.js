@@ -4,7 +4,7 @@ const Header = ({ image }) => {
         <div className="header header-06" >
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-md-8 col-xs-12">
+                    <div className="col-12">
                         <div className="header-right text-center">
                             <p>Bienvenid@ a Verus Wrld!</p>
                         </div>
