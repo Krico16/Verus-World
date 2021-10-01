@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Countdown from "react-countdown"
-import TeamArea from './team'
 
 const Content = ({ images }) => {
     return (
@@ -17,7 +16,7 @@ const Content = ({ images }) => {
                             <Countdown date={Date.parse('2021-10-17')} renderer={Timer} />
                         </div>
                         <div className="col-xl-5 col-lg-5" >
-                            <Image src={images.hero.author[0].url} width={634} height={951} className="cover-img" alt={images.hero.author[0].name} />
+                            <Image src={images.hero.background.url} width={634} height={951} className="cover-img" alt={images.hero.background.name} />
                         </div>
                     </div>
                 </div>
@@ -55,8 +54,8 @@ const Timer = ({ days, hours, minutes, seconds, completed }) => {
 
 export default Content
 /**
- * 
- * 
+ *
+ *
  */
 
 /**
@@ -67,7 +66,7 @@ export default Content
  *  Objetivos
  *  Politicas
  *  Invitacion
- * 
+ *
  * Inversiones
  *  Informacón
  *  Requisitos
@@ -77,15 +76,15 @@ export default Content
  *  Rendimiento sobre interes compuesto
  *  Financiamiento universitario
  *  Educación
- * 
+ *
  * Paginas adicionales
  *  Acerca de
  *  Terminos y condiciones
- *  
- * 
+ *
+ *
  * Restaurante (publicidad)
  *  Logo
  *  Concepto
  *  Galería
- * 
+ *
  */

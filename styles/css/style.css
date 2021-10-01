@@ -1027,12 +1027,6 @@ main .header.header-06 {
   }
 }
 
-@media (max-width: 767px) {
-  main .header.header-06 .header-right {
-    display: none;
-  }
-}
-
 main .header.header-06 .header-right p {
   color: #fff;
   font-size: 20px;
