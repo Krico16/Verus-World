@@ -16,7 +16,6 @@ const BackToTop = () => {
     }
 
     useEffect(() => {
-        console.log(isVisible);
         window.addEventListener('scroll', toggleVisibility)
     }, [isVisible])
 

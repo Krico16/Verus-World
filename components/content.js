@@ -54,35 +54,3 @@ const Timer = ({ days, hours, minutes, seconds, completed }) => {
 }
 
 export default Content
-
-
-/**
- * Inicio
- *  Bienvenida
- *  Mision
- *  Vision
- *  Objetivos
- *  Politicas
- *  Invitacion
- * 
- * Inversiones
- *  Informacón
- *  Requisitos
- *  Servicios
- *  Caja de Ahorro
- *  Fondo de retiro
- *  Rendimiento sobre interes compuesto
- *  Financiamiento universitario
- *  Educación
- * 
- * Paginas adicionales
- *  Acerca de
- *  Terminos y condiciones
- *  
- * 
- * Restaurante (publicidad)
- *  Logo
- *  Concepto
- *  Galería
- * 
- */
