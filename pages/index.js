@@ -37,26 +37,26 @@ export default Home;
 
 /**
  * Inicio
- *  Bienvenida
- *  Mision
- *  Vision
- *  Objetivos
- *  Politicas
- *  Invitacion
+ *  ✓  Bienvenida
+ *  ✓  Mision
+ *  ✓  Vision
+ *  ✓  Objetivos
+ *  ✘  Politicas
+ *  ✘  Invitacion
  * 
  * Inversiones
- *  Informacón
- *  Requisitos
- *  Servicios
- *  Caja de Ahorro
- *  Fondo de retiro
- *  Rendimiento sobre interes compuesto
- *  Financiamiento universitario
- *  Educación
+ *  ✘  Informacón
+ *  ✘  Requisitos
+ *  ✘  Servicios
+ *  ✘  Caja de Ahorro
+ *  ✘  Fondo de retiro
+ *  ✘  Rendimiento sobre interes compuesto
+ *  ✘  Financiamiento universitario
+ *  ✘  Educación
  * 
  * Paginas adicionales
- *  Acerca de
- *  Terminos y condiciones
+ *  ✘  Acerca de
+ *  ✘  Terminos y condiciones
  *  
  * 
  * Restaurante (publicidad)
@@ -64,4 +64,5 @@ export default Home;
  *  Concepto
  *  Galería
  * 
+ * ✓✘
  */

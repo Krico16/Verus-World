@@ -12,7 +12,7 @@ const CenterFooter = ({data}) => {
             <ul className="faico clear">
                 <FaIcon iconClass="faicon-dribble" icon="fa-dribbble" />
                 <FaIcon iconClass="faicon-facebook" icon="fa-facebook" />
-                <FaIcon iconClass="faicon-google" icon="fa-google" />
+                <FaIcon iconClass="faicon-google-plus" icon="fa-google" />
                 <FaIcon iconClass="faicon-linkedin" icon="fa-linkedin" />
                 <FaIcon iconClass="faicon-twitter" icon="fa-twitter" />
                 <FaIcon iconClass="faicon-vk" icon="fa-vk" />
