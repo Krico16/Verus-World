@@ -1,11 +1,7 @@
-import BackToTop from './backToTop';
-
 const Body = ({ children }) => (
-    <>
+    <div>
         {children}
-
-        <BackToTop />
-    </>
+    </div>
 )
 
 export default Body;
