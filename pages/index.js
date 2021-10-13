@@ -8,6 +8,7 @@ import { fetchAPI } from '../lib/api'
 import PageHeader from '../components/Header/PageHeader';
 import PageContent from '../components/Body/PageContent';
 import BottomSection from '../components/Body/BottomSection';
+import FooterSection from '../components/Footer/FooterSection';
 
 const Home = ({ homepage }) => {
   return (
@@ -16,7 +17,7 @@ const Home = ({ homepage }) => {
       <Body>
         <PageHeader />
         <PageContent />
-        <BottomSection />
+        <FooterSection />
       </Body>
     </Layout>
   );

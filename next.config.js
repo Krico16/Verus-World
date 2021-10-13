@@ -1,10 +1,3 @@
-const securityHeaders = [
-    {
-        key: 'Content-Security-Policy',
-        value: 'default-src https://vitals.vercel-insights.com'
-    }
-]
-
 module.exports = {
     poweredByHeader: false,
     images: {
@@ -14,12 +7,12 @@ module.exports = {
             'still-depths-15850.herokuapp.com',
             'res.cloudinary.com'
         ]
+    },
+    webpack(config) {
+        config.module.rules.push({
+            test: /\.svg$/,
+            use: ["@svgr/webpack"]
+        });
+        return config;
     }
-    /*,
-    exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
-        return {
-            '/': { page: '/' }
-        }
-    }
-    */
 }

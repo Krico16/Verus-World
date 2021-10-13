@@ -4,6 +4,7 @@ import { createContext } from "react";
 import { getStrapiMedia } from "../lib/media";
 import { fetchAPI } from "../lib/api";
 
+import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/globals.css'
 
 // Store Strapi Global object in context
