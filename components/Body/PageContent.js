@@ -6,7 +6,9 @@ const HeadSection = ({ data }) => {
     return (
         <>
             <Bienvenida />
-            <Section2 info={data} />
+            {data.map((d, i) => {
+                return <Section2 info={d} key={i} />
+            })}
         </>
     );
 }
