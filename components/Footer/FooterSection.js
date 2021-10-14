@@ -2,7 +2,7 @@ const FooterSection = () => {
     let currDate = new Date();
     let year = currDate.getFullYear()
     return (
-        <footer className="footer py-5">
+        <footer className="footer py-5 mont">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">

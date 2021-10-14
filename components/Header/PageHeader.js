@@ -17,10 +17,10 @@ const PageHeader = () => {
                     <span className="navbar-toggler-icon"></span>
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`}>
-                    <ul className="navbar-nav mx-auto nunito">
+                <div className={`collapse navbar-collapse justify-content-end ${isOpen ? 'show' : ''}`}>
+                    <ul className="navbar-nav nunito ">
                         <li className="nav-item">
-                            <a href="#" className="nav-link">
+                            <a href="#quienes_somos" className="nav-link">
                                 <span>¿Quienes sómos?</span>
                             </a>
                         </li>

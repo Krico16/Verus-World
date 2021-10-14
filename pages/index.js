@@ -6,8 +6,9 @@ import Body from '../components/body';
 import { fetchAPI } from '../lib/api'
 
 import PageHeader from '../components/Header/PageHeader';
-import PageContent from '../components/Body/PageContent';
-import BottomSection from '../components/Body/BottomSection';
+import HeadSection from '../components/Body/PageContent';
+
+
 import FooterSection from '../components/Footer/FooterSection';
 
 const Home = ({ homepage }) => {
@@ -16,7 +17,7 @@ const Home = ({ homepage }) => {
       <Seo seo={homepage.seo} />
       <Body>
         <PageHeader />
-        <PageContent />
+        <HeadSection />
         <FooterSection />
       </Body>
     </Layout>
