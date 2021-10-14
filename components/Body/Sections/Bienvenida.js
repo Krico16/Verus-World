@@ -12,13 +12,13 @@ const Bienvenida = () => {
                             </h1>
                             <p>Estamos aquí para mostrate una nueva realidad</p>
                             <div className="custom-btn-group mt-4">
-                                <a href="" className="btn custom-btn custom-btn-bg custom-btn-link">Conoce mas acerca de nosotros</a>
+                                <a href="#" className="btn custom-btn custom-btn-bg custom-btn-link">Conoce mas acerca de nosotros</a>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-5 col-md-5 col-12">
                         <div className="about-image svg">
-                            <Image src="/images/Finance-amico.svg" width="500px" height="500px" layout="responsive" />
+                            <Image src="/images/Finance-amico.svg" width="500px" height="500px" layout="responsive" alt="Finances up" />
                         </div>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ const Home = ({ homepage }) => {
       <Seo seo={homepage.seo} />
       <Body>
         <PageHeader />
-        <HeadSection />
+        <HeadSection data={homepage.Datos} />
         <FooterSection />
       </Body>
     </Layout>
