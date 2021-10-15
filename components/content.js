@@ -13,7 +13,7 @@ const Content = ({ images }) => {
                                     Llegaremos <br /> Pronto
                                 </h1>
                             </div>
-                            <Countdown date={Date.parse('2021-10-17')} renderer={Timer} />
+                            <Countdown date={Date.parse('2021-10-17').toLocaleString({timeZone: "America/Lima"})} renderer={Timer} />
                         </div>
                         <div className="col-xl-5 col-lg-5" >
                             <Image src={images.hero.background.url} width={634} height={951} className="cover-img" alt={images.hero.background.name} />
