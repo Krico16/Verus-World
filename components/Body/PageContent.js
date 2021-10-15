@@ -7,7 +7,7 @@ const HeadSection = ({ data }) => {
         <>
             <Bienvenida />
             {data.map((d, i) => {
-                return <Section2 info={d} key={i} />
+                return <Section2 info={d} site={i+1} key={i} />
             })}
         </>
     );
