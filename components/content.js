@@ -2,6 +2,11 @@ import Image from 'next/image'
 import Countdown from "react-countdown"
 
 const Content = ({ images }) => {
+    const dateOptions = { timeZone: 'America/Lima', month: 'long', day: 'numeric', year: 'numeric' };
+
+    const dateFormatter = new Intl.DateTimeFormat('en-US', dateOptions);
+    const dateAsFormattedString = dateFormatter.format(new Date('2021-10-17'));
+
     return (
         <div className="main-wrapper demo-06">
             <div className="hero-area">
@@ -13,7 +18,7 @@ const Content = ({ images }) => {
                                     Llegaremos <br /> Pronto
                                 </h1>
                             </div>
-                            <Countdown date={Date.parse('2021-10-17').toLocaleString({timeZone: "America/Lima"})} renderer={Timer} />
+                            <Countdown date={dateAsFormattedString} renderer={Timer} />
                         </div>
                         <div className="col-xl-5 col-lg-5" >
                             <Image src={images.hero.background.url} width={634} height={951} className="cover-img" alt={images.hero.background.name} />
