@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-const Bienvenida = () => {
+const Bienvenida = ({datos}) => {
     return (
         <section className="about full-screen d-lg-flex justify-content-center align-items-center nunito">
             <div className="container">
@@ -8,9 +8,9 @@ const Bienvenida = () => {
                     <div className="col-lg-7 col-md-7 col-12 d-flex align-items-center">
                         <div className="about-text">
                             <h1 className="animated animated-text">
-                                <span className="mr-2">Bienvenido a Verus</span>
+                                <span className="mr-2">{datos.Titulo}</span>
                             </h1>
-                            <p>Estamos aquí para mostrate una nueva realidad</p>
+                            <p>{datos.slogan}</p>
                             <div className="custom-btn-group mt-4">
                                 <a href="#" className="btn custom-btn custom-btn-bg custom-btn-link">Conoce mas acerca de nosotros</a>
                             </div>
@@ -18,7 +18,7 @@ const Bienvenida = () => {
                     </div>
                     <div className="col-lg-5 col-md-5 col-12">
                         <div className="about-image svg">
-                            <Image src="/images/manos.png" width="500px" height="500px" layout="responsive" alt="Finances up" />
+                            <Image src={datos.background.url} width="500px" height="500px" layout="responsive" alt={datos.background.name} />
                         </div>
                     </div>
                 </div>
