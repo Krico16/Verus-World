@@ -18,7 +18,7 @@ const Bienvenida = () => {
                     </div>
                     <div className="col-lg-5 col-md-5 col-12">
                         <div className="about-image svg">
-                            <Image src="/images/Finance-amico.svg" width="500px" height="500px" layout="responsive" alt="Finances up" />
+                            <Image src="/images/manos.png" width="500px" height="500px" layout="responsive" alt="Finances up" />
                         </div>
                     </div>
                 </div>

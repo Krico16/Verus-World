@@ -5,8 +5,8 @@ import Section2 from "./Sections/Section2";
 const HeadSection = ({ data }) => {
     return (
         <>
-            <Bienvenida />
-            {data.map((d, i) => {
+            <Bienvenida datos={data.hero} />
+            {data.Informacion.map((d, i) => {
                 return <Section2 info={d} site={i+1} key={i} />
             })}
         </>
