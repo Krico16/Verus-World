@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link'
 
 const PageHeader = () => {
 
@@ -11,7 +12,7 @@ const PageHeader = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar-light">
             <div className="container">
-                <a href="#" className="navbar-brand title ubuntu">Verus</a>
+                <Link href="/"><a className="navbar-brand title ubuntu">Verus</a></Link>
                 <button className={`navbar-toggler ${isOpen ? '' : 'collapsed'}`} aria-expanded={`${isOpen}`} type="button" onClick={toggleNavBar}>
                     <span className="navbar-toggler-icon"></span>
                     <span className="navbar-toggler-icon"></span>
@@ -20,19 +21,25 @@ const PageHeader = () => {
                 <div className={`collapse navbar-collapse justify-content-end ${isOpen ? 'show' : ''}`}>
                     <ul className="navbar-nav nunito ">
                         <li className="nav-item">
-                            <a href="#quienes_somos" className="nav-link">
-                                <span>¿Quienes sómos?</span>
-                            </a>
+                            <Link href="/#quienes_somos">
+                                <a className="nav-link">
+                                    <span>¿Quienes sómos?</span>
+                                </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link">
-                                <span>Inversiones</span>
-                            </a>
+                            <Link href="/inversiones">
+                                <a className="nav-link">
+                                    <span>Inversiones</span>
+                                </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link">
-                                <span>Sobre nosotros</span>
-                            </a>
+                            <Link href="/nosotros">
+                                <a className="nav-link">
+                                    <span>Sobre nosotros</span>
+                                </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
