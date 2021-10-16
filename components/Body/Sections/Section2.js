@@ -21,7 +21,7 @@ const Section2 = ({ info, site }) => {
                                 <Image src={info.imagen.url} width="100%" height="100%" layout="responsive" alt={info.imagen.name} />
                             </div>
                             <div className={`col-md-12 ${site % 2 ? 'col-lg-7' : 'col-lg-5'} mt-5 d-flex align-items-center`}>
-                                <p className="mt-6"> {info.Informacion} </p>
+                                <p className="mt-6"> {info.Descripcion} </p>
                             </div>
                         </>
                     }

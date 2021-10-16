@@ -13,6 +13,7 @@ const Bienvenida = ({datos}) => {
                             <p>{datos.slogan}</p>
                             <div className="custom-btn-group mt-4">
                                 <a href="#" className="btn custom-btn custom-btn-bg custom-btn-link">Conoce mas acerca de nosotros</a>
+                                {/** Redireccion a Acerca de  */}
                             </div>
                         </div>
                     </div>
