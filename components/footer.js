@@ -4,14 +4,9 @@ const Footer = () => {
         <div className="footer">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-7">
+                    <div className="col">
                         <div className="color-white" data-wow-delay=".4s">
-                            <p>Diseñado y hecho por Verus Studio</p>
-                        </div>
-                    </div>
-                    <div className="col-md-5">
-                        <div className="color-white" data-wow-delay=".4s">
-                            <p>Diseñado y hecho por Verus Studio</p>
+                            <p>Diseñado y hecho con ❤ por <a href="https://github.com/Krico16">Krico</a> </p>
                         </div>
                     </div>
                 </div>

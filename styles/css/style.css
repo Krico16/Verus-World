@@ -37,6 +37,7 @@ button {
 a:focus,
 a:hover {
   text-decoration: none;
+  color: #ffd66f !important;
 }
 
 i,
@@ -171,9 +172,12 @@ p {
 }
 
 .common-btn {
+  padding: 10px 80px;
+  color: #fff;
   position: relative;
   overflow: hidden;
   z-index: 2;
+  font-size: x-large;
 }
 
 .common-btn::after {
@@ -187,12 +191,14 @@ p {
   border-radius: inherit;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  color: burlywood !important;
 }
 
 .common-btn:hover::after {
   -webkit-transform: scale(0.5);
   transform: scale(0.5);
   opacity: 0;
+  color: yellow !important;
 }
 
 .mt-5 {

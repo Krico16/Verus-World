@@ -15,7 +15,7 @@ const Content = ({ images }) => {
                         <div className="col-xl-7">
                             <div className="heading">
                                 <h1 className="text-white">
-                                    Llegaremos <br /> Pronto
+                                    Te damos la <br /> Bienvenida
                                 </h1>
                             </div>
                             <Countdown date={dateAsFormattedString} renderer={Timer} />
@@ -32,7 +32,7 @@ const Content = ({ images }) => {
 }
 const Timer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
-        return <h1>Completado!</h1>
+        return <div style={{textAlign:'center'}}><a href="https://home.verus.world/" className="btn common-btn mt-10"><h2>Entrar</h2></a></div>
     } else {
         return <>
             <div className="countdown d-flex">
