@@ -44,7 +44,8 @@ const index = ({ data }) => {
 }
 
 export async function getStaticProps() {
-    const url = 'http://localhost:3000/api/hello'
+    const url = 'https://home.verus.world/api/hello'
+    const localurl = 'http://localhost:3000/api/hello'
     const res = await fetch(url)
     const data = await res.json();
 
