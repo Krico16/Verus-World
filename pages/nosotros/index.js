@@ -43,7 +43,7 @@ const index = ({ data }) => {
     );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
     const url = 'https://home.verus.world/api/hello'
     const localurl = 'http://localhost:3000/api/hello'
     const res = await fetch(url)
