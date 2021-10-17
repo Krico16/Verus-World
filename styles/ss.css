@@ -1,3 +1,11 @@
+@font-face {
+	font-family: 'BonVoyage';
+	src: url("/fonts/Voyage/Bon-Voyage-Regular.otf");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
 main.main{
     background-color: blueviolet;
     overflow: hidden;

@@ -13,7 +13,7 @@ const Home = ({ homepage }) => {
     <Layout>
       <Seo seo={homepage.seo} />
       <Body>
-        <Header image={homepage.seo.shareImage} />
+        {/* <Header image={homepage.seo.shareImage} /> */}
         <Content images={homepage} />
         <Footer />
       </Body>

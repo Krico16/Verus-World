@@ -8,14 +8,14 @@ const Content = ({ images }) => {
     const dateAsFormattedString = dateFormatter.format(new Date('2021-10-17'));
 
     return (
-        <div className="main-wrapper demo-06">
+        <div className="main-wrapper demo-06" style={{paddingTop:'100px',paddingBottom:'100px'}}>
             <div className="hero-area">
                 <div className="container">
-                    <div className="row">
+                    <div className="row align-items-center">
                         <div className="col-xl-7">
                             <div className="heading">
-                                <h1 className="text-white">
-                                    Te damos la <br /> Bienvenida
+                                <h1 className="text-white text-center">
+                                    Bienvendido
                                 </h1>
                             </div>
                             <Countdown date={dateAsFormattedString} renderer={Timer} />
