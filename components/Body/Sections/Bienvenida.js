@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-const Bienvenida = ({datos}) => {
+const Bienvenida = ({ datos }) => {
     return (
         <section className="about full-screen d-lg-flex justify-content-center align-items-center nunito">
             <div className="container">
@@ -12,8 +12,9 @@ const Bienvenida = ({datos}) => {
                             </h1>
                             <p>{datos.slogan}</p>
                             <div className="custom-btn-group mt-4">
-                                <a href="#" className="btn custom-btn custom-btn-bg custom-btn-link">Conoce mas acerca de nosotros</a>
-                                {/** Redireccion a Acerca de  */}
+                                <Link href="/nosotros">
+                                    <a className="btn custom-btn custom-btn-bg custom-btn-link">Conoce mas acerca de nosotros</a>
+                                </Link>
                             </div>
                         </div>
                     </div>

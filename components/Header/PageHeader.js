@@ -21,23 +21,9 @@ const PageHeader = () => {
                 <div className={`collapse navbar-collapse justify-content-end ${isOpen ? 'show' : ''}`}>
                     <ul className="navbar-nav nunito ">
                         <li className="nav-item">
-                            <Link href="/#quienes_somos">
-                                <a className="nav-link">
-                                    <span>¿Quienes sómos?</span>
-                                </a>
-                            </Link>
-                        </li>
-                        <li className="nav-item">
                             <Link href="/inversiones">
                                 <a className="nav-link">
                                     <span>Inversiones</span>
-                                </a>
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link href="/nosotros">
-                                <a className="nav-link">
-                                    <span>Sobre nosotros</span>
                                 </a>
                             </Link>
                         </li>
