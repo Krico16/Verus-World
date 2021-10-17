@@ -6,7 +6,7 @@ const Header = ({ image }) => {
                 <div className="row align-items-center">
                     <div className="col-12">
                         <div className="header-right text-center">
-                            <p>Bienvenid@ a Verus!</p>
+                            <p>Bienvenido a Verus</p>
                         </div>
                     </div>
                 </div>
