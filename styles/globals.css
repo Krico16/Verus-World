@@ -34,7 +34,11 @@ button.navbar-toggler:focus {
 }
 
 .full-screen {
-	padding: 8rem 0;
+	padding: 5rem 0;
+}
+
+.page-section{
+	padding: 5rem 0;
 }
 
 .small-text {
@@ -97,7 +101,7 @@ h2 {
 }
 
 h3 {
-	color: #484848;
+	color: #dcdcdc;
 }
 
 h3,

@@ -19,7 +19,7 @@ const Bienvenida = ({datos}) => {
                     </div>
                     <div className="col-lg-5 col-md-5 col-12">
                         <div className="about-image svg">
-                            <Image src={datos.background.url} width="500px" height="500px" layout="responsive" alt={datos.background.name} />
+                            <Image placeholder="blur" src={datos.background.url} width="500px" height="500px" layout="responsive" alt={datos.background.name} />
                         </div>
                     </div>
                 </div>
