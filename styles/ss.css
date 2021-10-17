@@ -25,3 +25,10 @@ main .header.my-header{
     z-index: 3;
 }
 
+.subtext p{
+    font-family: 'BonVoyage' !important;
+    font-size: xx-large !important;
+    text-align: center;
+    word-spacing: 120%;
+    font-weight: 500;
+}

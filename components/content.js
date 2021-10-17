@@ -8,7 +8,7 @@ const Content = ({ images }) => {
     const dateAsFormattedString = dateFormatter.format(new Date('2021-10-17'));
 
     return (
-        <div className="main-wrapper demo-06" style={{paddingTop:'100px',paddingBottom:'100px'}}>
+        <div className="main-wrapper demo-06" style={{ paddingTop: '100px', paddingBottom: '100px' }}>
             <div className="hero-area">
                 <div className="container">
                     <div className="row align-items-center">
@@ -17,6 +17,11 @@ const Content = ({ images }) => {
                                 <h1 className="text-white text-center">
                                     Bienvendido
                                 </h1>
+                            </div>
+                            <div className="subtext pt-3 pb-5">
+                                <p>
+                                    Te invitamos a formar parte del comienzo de este proyecto tan ambicioso que es lograr un cambio en todas las vidas de los mexicanos y próximamente al mundo.
+                                </p>
                             </div>
                             <Countdown date={dateAsFormattedString} renderer={Timer} />
                         </div>
@@ -32,7 +37,13 @@ const Content = ({ images }) => {
 }
 const Timer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
-        return <div style={{textAlign:'center'}}><a href="https://home.verus.world/" className="btn common-btn mt-10"><h2>Entrar</h2></a></div>
+        return (
+            <div style={{ textAlign: 'center' }}>
+                <a href="https://home.verus.world/" className="btn common-btn mt-10">
+                    <h2> Descubrir </h2>
+                </a>
+            </div>
+        )
     } else {
         return <>
             <div className="countdown d-flex">
