@@ -21,7 +21,7 @@ const InvestBody = () => {
         <section className="full-screen">
             <div className="container">
                 <div className="row">
-                    <h1 className="text-center" style={{ color: 'transparent', 'textShadow': '0 0 32px rgba(0,0,0,0.7)' }}>Pronto Iniciaremos</h1>
+                    <h1 className="text-center">Pronto Iniciaremos</h1>
                 </div>
                 <div className="row">
                     <Countdown renderer={renderer} date={dateAsFormattedString} />
