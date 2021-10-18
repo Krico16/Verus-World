@@ -21,7 +21,7 @@ const InvestBody = () => {
         <section className="full-screen">
             <div className="container">
                 <div className="row">
-                    <h1 className="text-center">Pronto Iniciaremos</h1>
+                    <h1 className="text-center ubuntu">Pronto Iniciaremos</h1>
                 </div>
                 <div className="row">
                     <Countdown renderer={renderer} date={dateAsFormattedString} />
@@ -32,8 +32,8 @@ const InvestBody = () => {
             </div>
             <div className="row">
                 <div className="text-center">
-                    <h3>¿Quieres más información?</h3>
-                    <h4>
+                    <h3 className="ubuntu">¿Quieres más información?</h3>
+                    <h4 className="ubuntu" style={{fontStretch:'extra-expanded'}}>
                         <i className="fab fa-whatsapp"></i>
                         <a style={{ color: '#42aa13' }} href="https://wa.me/message/IEHU3JWWF3UDO1"> Escríbenos por WhatsApp</a>
                     </h4>
