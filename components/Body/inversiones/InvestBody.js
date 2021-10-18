@@ -13,7 +13,15 @@ const InvestBody = () => {
         } else {
             // Render a countdown
             return (
-                <span style={{fontSize:'2.5rem',color:'#fff'}} className="text-center">{days}:{hours}:{minutes}:{seconds}</span>
+                <div id="countdown">
+                    <ul>
+                        <li><span>{days}</span> Días</li>
+                        <li><span>{hours}</span> Horas</li>
+                        <li><span>{minutes}</span> Minutos</li>
+                        <li><span>{seconds}</span> Segundos</li>
+                    </ul>
+                </div>
+
             );
         }
     };
@@ -33,7 +41,7 @@ const InvestBody = () => {
             <div className="row">
                 <div className="text-center">
                     <h3 className="ubuntu">¿Quieres más información?</h3>
-                    <h4 className="ubuntu" style={{fontStretch:'extra-expanded'}}>
+                    <h4 className="ubuntu" style={{ fontStretch: 'extra-expanded' }}>
                         <i className="fab fa-whatsapp"></i>
                         <a style={{ color: '#42aa13' }} href="https://wa.me/message/IEHU3JWWF3UDO1"> Escríbenos por WhatsApp</a>
                     </h4>
