@@ -10,7 +10,7 @@ const Section2 = ({ info, site }) => {
                 <div className="row">
                     {(site % 2) ? <>
                         <div className={`col-md-12 ${site % 2 ? 'col-lg-7' : 'col-lg-5'} mt-5 d-flex align-items-center`}>
-                            <p className="mt-6"> {info.Descripcion} </p>
+                            <p className="mt-6 text-center"> {info.Descripcion} </p>
                         </div>
                         <div className={`col-md-12 ${site % 2 ? 'col-lg-5' : 'col-lg-7'}`}>
                             <Image src={info.imagen.url} width="100%" height="100%" layout="responsive" alt={info.imagen.name} />
@@ -20,8 +20,8 @@ const Section2 = ({ info, site }) => {
                             <div className={`col-md-12 ${site % 2 ? 'col-lg-5' : 'col-lg-7'}`}>
                                 <Image src={info.imagen.url} width="100%" height="100%" layout="responsive" alt={info.imagen.name} />
                             </div>
-                            <div className={`col-md-12 ${site % 2 ? 'col-lg-7' : 'col-lg-5'} mt-5 d-flex align-items-center`}>
-                                <p className="mt-6"> {info.Descripcion} </p>
+                            <div className={`col-md-12 ${site % 2 ? 'col-lg-7' : 'col-lg-5'} mt-1 d-flex align-items-center`}>
+                                <p className="mt-2 text-center"> {info.Descripcion} </p>
                             </div>
                         </>
                     }

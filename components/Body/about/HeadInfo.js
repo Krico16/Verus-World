@@ -1,7 +1,7 @@
 const HeadInfo = () => {
     return (
-        <div className="full-screen about d-lg-flex justify-content-center align-items-center ubuntu">
-            <div className="container-fluid">
+        <div className="full-screen about d-lg-flex ubuntu">
+            <div className="container">
                 <div className="row ">
                     <div className="col-12">
                         <div className="about-text text-center">

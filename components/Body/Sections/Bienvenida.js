@@ -11,8 +11,8 @@ const Bienvenida = ({ datos }) => {
                             <h1 className="animated animated-text">
                                 <span className="mr-2">{datos.Titulo}</span>
                             </h1>
-                            <p>{datos.slogan}</p>
-                            <div className="custom-btn-group mt-4">
+                            <p style={{marginLeft:'20%'}} >{datos.slogan}</p>
+                            <div style={{marginLeft:'12%'}} className="custom-btn-group mt-4">
                                 <Link href="/nosotros">
                                     <a className="btn custom-btn custom-btn-bg custom-btn-link">Conoce mas acerca de nosotros</a>
                                 </Link>

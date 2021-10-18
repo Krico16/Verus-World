@@ -23,8 +23,8 @@ const index = ({ data }) => {
             <Seo />
             <Body>
                 <PageHeader />
-                <div className="full-screen about d-lg-flex justify-content-center align-items-center ubuntu">
-                    <div className="container-fluid">
+                <div className="full-screen about d-lg-flex ubuntu" style={{marginTop:'4vh'}}>
+                    <div className="container pt-10">
                         <div className="row ">
                             <div className="col-12">
                                 <div className="about-text text-center">

@@ -12,7 +12,7 @@ const PageHeader = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar-light">
             <div className="container">
-                <Link href="/"><a className="navbar-brand title ubuntu">Verus</a></Link>
+                <Link href="/"><a className="navbar-brand ubuntu">Verus</a></Link>
                 <button className={`navbar-toggler ${isOpen ? '' : 'collapsed'}`} aria-expanded={`${isOpen}`} type="button" onClick={toggleNavBar}>
                     <span className="navbar-toggler-icon"></span>
                     <span className="navbar-toggler-icon"></span>
