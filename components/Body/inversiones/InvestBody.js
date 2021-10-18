@@ -27,7 +27,7 @@ const InvestBody = () => {
                     <Countdown renderer={renderer} date={dateAsFormattedString} />
                 </div>
                 <div className="row">
-                    <img src="/images/dolar-min.png" className='text-center' alt="" style={{ width: '60%', height: '80%', display: 'block', 'margin': 'auto' }} />
+                    <img src="https://res.cloudinary.com/koitmc/image/upload/v1634425094/Dolar_min_b45a82e73b.png" className='text-center' alt="" style={{ width: '60%', height: '80%', display: 'block', 'margin': 'auto' }} />
                 </div>
             </div>
             <div className="row">
